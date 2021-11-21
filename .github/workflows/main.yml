@@ -38,4 +38,4 @@ jobs:
         run: npm install --global surge
         #surge deploying
       - name: deploying surge
-        run: surge ./build glamorous-muscle.surge.sh --token ${{Hasan_secret_20201}}
+        run: surge ./build glamorous-muscle.surge.sh --token 0a5300006fa896230f7c15b6c65aa6d2
