@@ -38,4 +38,4 @@ jobs:
         run: npm install --global surge
         #surge deploying
       - name: deploying surge
-        run: surge ./build http://horrible-kite.surge.sh/ --token ${{HASAN_PROJECT_2020}}
+        run: surge ./build glamorous-muscle.surge.sh --token ${{Hasan_secret_20201}}
