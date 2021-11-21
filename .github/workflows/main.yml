@@ -33,10 +33,10 @@ jobs:
     # Yarn command
     cmd: install 
     
-    -name: creating build
+    - name: creating build
     run: yarn build
-    -name: installing surge
+    - name: installing surge
     run: npm install -g surge
     
-    -name: deploying surge
+    - name: deploying surge
     run: surge ./build http://bootcampnov_2021.surge.sh/ --token${{HASAN_SECRET_PROJECT20201}}
